@@ -1,0 +1,123 @@
+/* Overall Layout */
+.app-container {
+  font-family: 'Georgia', serif; 
+  background-color: #f9f9fc;
+  padding-bottom: 40px;
+}
+
+/* 🔵 AlgoMentor AI Header - Rich Dark Blue */
+.header {
+  background-color: #001F3F; /* Rich Blue */
+  color: #ffffff;
+  padding: 60px;
+  text-align: center;
+  font-family:'Georgia', serif;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #cce6ff;
+  margin-top: 8px;
+}
+
+/* 🔍 Search + Filter */
+.search-bar,
+.filters {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.filters select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* 🧠 Problem Card */
+.problem-card {
+  background-color: #e6f2ff; /* Light pleasant blue */
+  border: 1px solid #cce0ff;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.problem-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+/* 🧠 AI Explanation */
+.ai-explanation {
+  background-color: #d9ecff; /* lighter blue */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 15px;
+  border-left: 5px solid #3399ff;
+}
+
+/* 🧑‍💻 Code Editor Section */
+.code-editor {
+  margin-top: 20px;
+}
+
+.copy-button {
+  float: right;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+/* 🔘 Run Code Button */
+.code-editor button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.code-editor button:hover {
+  background-color: #004c99;
+}
+
+/* 💬 Output */
+.output {
+  margin-top: 12px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: monospace;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
